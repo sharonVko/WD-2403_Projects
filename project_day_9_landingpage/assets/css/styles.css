@@ -5,17 +5,16 @@
 }
 
 body{
-    
-    
-    /* background-image: url(https://images.unsplash.com/photo-1443527216320-7e744084f5a7?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-position: center;
-    background-size: cover;
-    height: 100vh; */
+    width: 100vw;
 }
     
 @font-face {
     font-family: "Raleway";
     src: url(./../fonts/Raleway-VariableFont_wght.ttf);
+}
+
+html{
+    font-family: "Raleway", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -44,16 +43,16 @@ ul{
 
 .logo{
    color: #666;
+   font-size: 2rem;
+   font-weight: 200;
 }
 .logo:hover{
     color: 333;
 }
 
 ul li a{
-    /* display: flex;
-    flex-direction: row; */
-font-size: 10px;
-color: #333;
+   font-size: 16px;
+   color: #333;
 }
  ul li a:hover{
     color: #337ab7;
@@ -67,11 +66,11 @@ color: #333;
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 24em;
-    background-image: url(https://images.unsplash.com/photo-1443527216320-7e744084f5a7?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(./../img/img_section_1header.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    
     justify-content: center;
  }
 
@@ -83,23 +82,28 @@ color: #333;
 
 p{
     font-weight: 200;
+    line-height: 1.8em;
+    color: #8C979E;
+    margin-bottom: 2em;
 }
 
 .p-section1{
     margin-bottom: 30px;
+    font-size: 12px;
+    color: #FFFFFF;
 }
 
-.btns-section1{
-/* width: 800px; */
+/* .btns-section1{
+  gap: 20px;
 
-}
+} */
 
 .download-btn{
     border: 2px solid white;
     color: white;
     background: none;
-    padding: 16px 30px;
-    font-size: 10px;
+    padding: 15px 45px;
+    font-size: 12px;
 }
 .download-btn:hover{
     background-color: white;
@@ -110,10 +114,22 @@ p{
     background-color: #745CF9;
     border-color: #745CF9;
     color: white;
-    padding: 16px 50px;
-    font-size: 10px;
+    padding: 16px 60px;
+    font-size: 12px;
+    opacity: 0.9;
 }
 
 .section2{
-    
+    display: flex;
+}
+
+.section2 div{
+    margin: 4em;
+    padding: 0 10em;
+}
+
+.h3black{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1em;
 }
