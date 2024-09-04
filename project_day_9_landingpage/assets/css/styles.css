@@ -167,3 +167,53 @@ p{
         color: #ffffff;
         padding: 2em 20em;
     }
+
+.section5{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 5em;
+}
+.section5 button{
+    margin-bottom: 2em;
+}
+
+.section5 p{
+    margin: 0 8em;
+}
+
+.section6{
+    background-color: black;
+    text-align: center;
+    padding: 5em;
+}
+.section6 h3, .section7 h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1em;
+    color: #FFFFFF ;
+}
+
+.section6 p{
+  
+    color: #FFFFFF;
+}
+
+.galleryrow1{
+    width: ;
+}
+
+.section7{
+color: white;
+text-align: center;
+display: flex;
+flex-direction: column;
+background-image: url(./../img/img_section_7_sky.jpg);
+background-position: center;
+background-size: cover;
+height: 27em;
+justify-content: center;
+}
+.section7 img{
+    width: 4rem;
+
+}
