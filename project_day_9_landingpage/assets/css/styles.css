@@ -25,8 +25,7 @@ header{
 }
 
 nav{
-    font-family: "Raleway";
-    display: flex;
+     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -62,7 +61,6 @@ ul li a{
 
  .section1{
     color: white;
-    font-family: "Raleway";
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -70,7 +68,6 @@ ul li a{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    
     justify-content: center;
  }
 
@@ -110,7 +107,7 @@ p{
     color: black;
 }
 
-.read-btn{
+.purple-btn{
     background-color: #745CF9;
     border-color: #745CF9;
     color: white;
@@ -118,8 +115,11 @@ p{
     font-size: 12px;
     opacity: 0.9;
 }
+.purple-btn:hover{
+    background-color: #4f3db6;
+}
 
-.section2{
+.section2, .section3{
     display: flex;
 }
 
@@ -133,3 +133,37 @@ p{
     font-weight: 300;
     margin-bottom: 1em;
 }
+
+.section3{
+    background-color: #f5f5f5;
+}
+.section3 div{
+    margin: 4em;
+    padding: 0 10em;
+}
+
+.section3 img{
+    width: 50%;
+}
+
+.section4{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./../img/img_section4_wave.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30em;
+    justify-content: center;
+    }
+
+    h2{
+        font-size: 3rem;
+        font-weight: 200;
+    }
+
+    .p-white{
+        color: #ffffff;
+        padding: 2em 20em;
+    }
