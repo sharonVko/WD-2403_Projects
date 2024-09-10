@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     width: 100vw;
-}
+} */
     
 @font-face {
     font-family: "Raleway";
-    src: url(./../fonts/Raleway-VariableFont_wght.ttf);
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
 }
 
 html{
@@ -25,10 +25,17 @@ header{
 }
 
 nav{
-     display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
+
+nav ul{
+    /* display: none;  */
+    /* von mobil bis 768 wird burger gezeigt */
+}
+
 
 a, ul li{
     text-decoration: none;
@@ -57,6 +64,11 @@ ul li a{
     color: #337ab7;
  }
 
+ .burger{
+    font-size: 2rem;
+    display: none;
+ }
+
             /*  <!-- ********SECTION 1 ******* --> */
 
  .section1{              /* Hintergrundbild für div-container mit 100vh  */
@@ -70,6 +82,7 @@ ul li a{
     height: 100vh;
     justify-content: center;
     background-attachment: fixed;
+    padding: 1em;
  }
 
  h1{
@@ -122,12 +135,14 @@ p{
 
 .section2, .section3{   /* Anweisung für beide classes */
     display: flex;
+    align-items: center;
+    padding: 1em;
 }
 
 .section2 div{
-    margin: 4em;
-    padding: 0 10em;
-}
+     margin: 4em;
+    padding: 0 10em; }
+  
 
 .h3black{
     font-size: 2rem;
@@ -145,8 +160,11 @@ p{
     padding: 0 10em;
 }
 
-.section3 img{
-    width: 45vw;
+.section2 img, 
+.section3 img{  /* img skaliert sich durch 100% automatisch, height auto proportioniert sich automatisch, Seitenverhältnis bleibt gleich */
+    width: 100%;
+    height: auto;
+    max-width: 45vw;
 }
 
                 /*  <!-- ******** SECTION 4 ******* --> */
@@ -178,14 +196,22 @@ p{
 .section5{
     background-color: #f5f5f5;
     text-align: center;
-    padding: 5em;
+    padding: 5em 5em 0 5em;
 }
 .section5 button{
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 .section5 p{
     margin: 20px 8em;
+}
+.forestpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
 }
 
             /*  <!-- ******** SECTION 6 ******* --> */

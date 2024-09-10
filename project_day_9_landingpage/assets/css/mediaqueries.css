@@ -1,0 +1,35 @@
+@media screen and (max-width: 375px){
+    
+    .section2, .section3{   
+        padding: 2em;
+    }
+} 
+@media screen and (max-width: 768px){
+
+    .section2, .section3{   
+        padding: 4em;
+        display: flex;
+        gap: 2em;
+    }
+
+    .section2 > div, .section3 > div{
+        /* flex: 1;  */
+        /*  flex 1 verteilt auf beie Seiten gleichmäßig */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }   /*  > nur für divs auf der 1. Ebene, keine verschachtelten */
+   
+    nav ul{
+        
+        display: none;
+        /* display: flex;  */
+        /* aus none wird flex, es wird sichtbar und geflext */
+    }
+    .burger{
+     display: block;
+  }
+    
+} 
+
+    
